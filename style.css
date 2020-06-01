@@ -1,0 +1,53 @@
+html {
+    background-color: #252525;
+    text-align:center;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.links {
+    background-color: #202020;
+    overflow:hidden;
+    float:left;
+    margin: 5px;
+    font-size: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+a:hover {
+    color: #d4d3d3;
+}
+
+.icon {
+    border-radius:100%;
+    background-color: #498BFF;
+    border: 5px solid #ac49ff;
+    width:25%;
+    height:25%;
+    transition: transform 1s, background-color 1s, width 1s, height 1s;
+}
+
+.icon:hover{
+    background-color: #798BFF;
+    width:27.5%;
+    height:27.5%;
+    transform: rotate(360deg);
+}
+
+.link {
+    margin: 5px;
+    transition: margin 1s;
+}
+
+.link:hover{
+    margin: 10px;
+}
